@@ -7,6 +7,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Button, Input } from '@material-ui/core';
 import ImageUpload from './ImageUpload';
 import InstagramEmbed from 'react-instagram-embed';
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function getModalStyle() {
   const top = 50;
